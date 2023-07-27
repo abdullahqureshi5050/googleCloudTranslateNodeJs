@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "0d940113-87df-4fe6-a6a8-836df818dd50",
+		"name": "google translation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8662031"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\": \"The are an Awesome Developer.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/translate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"translate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
